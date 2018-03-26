@@ -5,3 +5,4 @@ LABEL maintainer="Gooroomee ycs <robin.lee@gooroomee.com>"
 
 COPY copyables /
 
+RUN cat /fake_media/xa* > /fake_media/fake_video.y4m
