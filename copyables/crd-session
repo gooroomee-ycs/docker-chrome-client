@@ -1,0 +1,6 @@
+rm -rf /home/chrome/.config/chrome-remote-desktop/chrome-profile/Singleton*
+# exec /opt/google/chrome/chrome --no-sandbox --start-maximized --force-device-scale-factor=1 --use-system-title-bar
+
+exec /opt/google/chrome/chrome --start-maximized --force-device-scale-factor=1 --use-system-title-bar --use-file-for-fake-video-capture="/fake_video.y4m" --use-file-for-fake-audio-capture="/fake_audio.wav" --allow-file-access --use-fake-device-for-media-stream --app="https://test.gooroomee.com/testg?userNickname=test-c-001"
+
+
